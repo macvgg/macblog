@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How We Solved the 2.0 Update Progress Resetting Issue | MacBlog</title>
+  </head>
+  <body>
+    <h1>
+      How We Solved the 2.0 Update Progress Resetting Issue
+    </h1>
+    so we recently decided to make all the games with an iframe form of embedding the actual game, so users can have more games on the screen, more control, and more features to do. with the new 2.0 update we introduced a brand new ui for each game page and brand new url's and links to each game. originally we put the game html's with the refresh ui out side of the original parent folder for the games. because we put it in a seperate parent folder, the local storage access is disconnected due to browser cross origin issues, which would result in games progress reset, but we decided to put the refreshed html files INSIDE the games' folders, which doesn't violate cross origin, so the progress will be saved! all thanks to me, we saved your games' progress that you've grinded!!!
+  </body>
+</html>
