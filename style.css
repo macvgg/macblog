@@ -86,6 +86,58 @@ body {
   transition: width 0.15s ease;
 }
 
+.wrapp {
+  display: flex;
+}
+
+.side {
+  width: 18%;
+  background-color: rgb(30, 30, 30);
+  height: calc(100vh - 46.66px);
+  overflow: auto;
+}
+
+.sidebar {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+}
+
+.stitle {
+  font-size: 20px;
+  text-align: center;
+  padding-block: 20px;
+}
+
+.syear {
+  margin-inline: 20px;
+  padding-block: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(180, 180, 180);
+  font-size: 17px;
+  border-top: 2px solid rgb(180, 180, 180);
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar li {
+  padding-block: 10px;
+  padding-inline: 20px;
+}
+
+.sidebar li:hover {
+  background-color: rgb(45, 45, 45);
+}
+
+.mainp {
+  width: 82%;
+  overflow: scroll;
+  height: calc(100vh - 46.66px);
+}
+
 .nav-link:hover::after {
   width: 80%;
   background-color: gold;
@@ -160,8 +212,9 @@ body {
   width: 96%;
   margin-inline: 2%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 .list a {
