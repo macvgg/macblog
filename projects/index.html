@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FT223HSV3Z"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FT223HSV3Z");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects | MacBlog</title>
@@ -16,7 +30,17 @@
       <a href="/macblog/projects/" class="nav-link">Projects</a>
       <a href="/macblog/roadmap/" class="nav-link">Roadmap</a>
       <a href="/macblog/updates/" class="nav-link">Updates</a>
-      <a href="/macblog/about.html" class="nav-link">About</a>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macblog/">About</a>
+          <a href="/macblog/updates/macblog/">Updates</a>
+          <a href="/macblog/projects/macblog/">Docs</a>
+          <a href="https://forms.gle/8ATGPGkr7mqKrJ1e9" target="_blank"
+            >Feedback</a
+          >
+        </ul>
+      </div>
     </nav>
     <div class="homeheader">
       <h1 class="title">MacWeb Projects</h1>
@@ -25,12 +49,19 @@
       </p>
     </div>
     <div class="apps">
-      <h1 style="text-align: center; padding-block: 20px;">Available Apps & Projects!</h1>
+      <h1 style="text-align: center; padding-block: 20px;">MacWeb Apps</h1>
       <div class="wrapper">
         <a class="app" href="maclearn/">
           <img src="/MacLearn Logo.png" alt="">
           <h1 class="app-h">MacLearn</h1>
           <p class="app-p">MacLearn has many courses for you to learn, strengthen, and master your skills!</p>
+        </a>
+        <a class="app" href="mactime/">
+          <img src="/MacTime Logo.png" alt="">
+          <h1 class="app-h">MacTime</h1>
+          <p class="app-p">
+            MacTime helps manage your time effectively with Calendar, Timer, Focus, and more!
+          </p>
         </a>
         <a class="app" href="macvg/">
           <img src="/MacVG Logo.png" alt="">
@@ -39,57 +70,11 @@
             The best unblocked abounding gaming platform with the most features!
           </p>
         </a>
-        <a class="app" href="">
-          <img src="/MacTime Logo.png" alt="">
-          <h1 class="app-h">MacTime</h1>
-          <p class="app-p">
-            MacTime helps manage your time effectively with Calendar, Timer, Focus, and more!
-          </p>
-        </a>
         <a class="app" href="macblog/">
           <img src="/MacBlog Logo.png" alt="">
           <h1 class="app-h">MacBlog</h1>
           <p class="app-p">
             Our posts, updates, tips, project reports, and roadmap are all here!
-          </p>
-        </a>
-      </div>
-    </div>
-    <div class="apps">
-      <h1 style="text-align: center; padding-block: 20px;">Apps & Projects Coming Soon!</h1>
-      <div class="wrapper">
-        <a class="app" href="">
-          <img src="/MacSocial Logo.png" alt="">
-          <h1 class="app-h">MacSocial</h1>
-          <p class="app-p">Watch videos, see stories, view posts & dicussions, and message, all with MacSocial!</p>
-        </a>
-        <a class="app" href="">
-          <img src="/MacDocs Logo.png" alt="">
-          <h1 class="app-h">MacWork</h1>
-          <p class="app-p">
-            Boost your productivity to the max, with all your favorite apps in
-            one place.
-          </p>
-        </a>
-        <a class="app" href="">
-          <img src="/MacTranslate Logo.png" alt="">
-          <h1 class="app-h">MacTranslate</h1>
-          <p class="app-p">
-            Connect with people around the world without a problem with the best tranlation tool!
-          </p>
-        </a>
-        <a class="app" href=" ">
-          <img src="/MacView Logo.png" alt="">
-          <h1 class="app-h">MacView</h1>
-          <p class="app-p">
-            The most optimized, productive, feature-packed, and modern browser!
-          </p>
-        </a>
-        <a class="app" href=" " style="width: 520px !important;">
-          <img src="/MacWeb Logo.png" alt="">
-          <h1 class="app-h">MacWeb</h1>
-          <p class="app-p">
-            Get to anywhere, do anything, and create anything with one line of command that guides you to MacWeb's productivity apps and more!
           </p>
         </a>
       </div>

@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FT223HSV3Z"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FT223HSV3Z");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roadmap | MacBlog</title>
@@ -16,7 +30,17 @@
       <a href="/macblog/projects/" class="nav-link">Projects</a>
       <a href="/macblog/roadmap/" class="nav-link">Roadmap</a>
       <a href="/macblog/updates/" class="nav-link">Updates</a>
-      <a href="/macblog/about.html" class="nav-link">About</a>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macblog/">About</a>
+          <a href="/macblog/updates/macblog/">Updates</a>
+          <a href="/macblog/projects/macblog/">Docs</a>
+          <a href="https://forms.gle/8ATGPGkr7mqKrJ1e9" target="_blank"
+            >Feedback</a
+          >
+        </ul>
+      </div>
     </nav>
     <h1 style="text-align: center; padding-block: 200px">
       Roadmap goes here!

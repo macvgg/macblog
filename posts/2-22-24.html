@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FT223HSV3Z"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FT223HSV3Z");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How We Solved the MacTime Countdown not accurate and leap year month issue | MacBlog</title>
+  </head>
+  <body>
+    <h1>
+      How We Solved the MacTime Countdown not accurate and leap year month issue
+    </h1>
+    the old mactime countdown, when u do a lot of years and months ahead of current time, it doesnt execute properly and has hours or even days of errors from the actual countdown time, so we decided to use a day-based countdown system instead of month and day-based. month is only an "illusion", where we're actually counting on dates, seeing every month has different number of days, and basing countdown of this isn't accuracte and not logically correct, so we're counting days, and using the rounded average number of days in a month (30), and divide the remaining days by that number, to get the illusional month, so it's easier to comprehend while not causing any errors. It's actually a pretty clever idea, to be honest.
+  </body>
+</html>
