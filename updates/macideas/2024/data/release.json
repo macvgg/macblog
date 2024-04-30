@@ -1,0 +1,24 @@
+{
+  "title": "MacIdeas May Release",
+  "date": "5.1.2024",
+  "description": "NEW APP!!!",
+  "mainarticles": {
+    "count": "1",
+    "sh1": "NEW APP!!!",
+    "p1": "NEW APP!!!"
+  },
+  "others": {
+    "count": "1",
+    "other1": "NEW APP!!!"
+  },
+  "menulinks": {
+    "count": "3",
+    "menu1": "Intro",
+    "menu1link": "#home",
+    "menu2": "New App",
+    "menu2link": "#sh1",
+    "menu3": "Others",
+    "menu3link": "#otherslist"
+  },
+  "year": "2024"
+}

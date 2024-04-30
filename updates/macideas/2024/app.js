@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const sidebarmain = document.createElement("div");
   sidebarmain.classList.add("macsidebar");
   sidebarmain.setAttribute("id", "sidebar");
-  
   sidebarmain.innerHTML = `<a href="/"><img src="/logo.png" alt="" /></a>
   <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
 <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
@@ -71,15 +70,10 @@ document.addEventListener("DOMContentLoaded", function () {
   wrappermain.innerHTML = `
 <div class="side">
   <ul class="sidebar">
-    <h2 class="stitle">MacWeb Updates</h2>
-    <h3 class="syear">2023</h3>
-    <div class="sidelinks">
-    <a href="/macblog/updates/macweb/2023/pre.html"><li>Prerelease Updates</li></a>
-    <a href="/macblog/updates/macweb/2023/nav.html"><li>Site Material 1.5</li></a>
-    </div>
+    <h2 class="stitle">MacIdeas Updates</h2>
     <h3 class="syear" id="year">2024</h3>
     <div class="sidelinks">
-    <a href="/macblog/updates/macweb/2024/site-material-2.html"><li>Site Material 2</li></a><a href="/macblog/updates/macweb/2024/site-material-2_1.html"><li>Site Material 2.1</li></a><a href="/macblog/updates/macweb/2024/site-material-3.html"><li>Site Material 3</li></a>
+    <a href="/macblog/updates/macideas/2024/release.html"><li>May Release</li></a>
     </div>
   </ul>
 </div>

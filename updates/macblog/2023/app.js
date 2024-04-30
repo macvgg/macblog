@@ -47,7 +47,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const sidebarmain = document.createElement("div");
   sidebarmain.classList.add("macsidebar");
   sidebarmain.setAttribute("id", "sidebar");
+  
   sidebarmain.innerHTML = `<a href="/"><img src="/logo.png" alt="" /></a>
+  <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
 <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
 <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
 <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
