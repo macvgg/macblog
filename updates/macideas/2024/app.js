@@ -71,9 +71,13 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="side">
   <ul class="sidebar">
     <h2 class="stitle">MacIdeas Updates</h2>
+    <h3 class="syear">2023</h3>
+    <div class="sidelinks">
+    <a href="/macblog/updates/macideas/2023/prerelease.html"><li>Prerelease Log</li></a>
+    </div>
     <h3 class="syear" id="year">2024</h3>
     <div class="sidelinks">
-    <a href="/macblog/updates/macideas/2024/release.html"><li>May Release</li></a>
+    <a href="/macblog/updates/macideas/2024/release.html"><li>June Release</li></a>
     </div>
   </ul>
 </div>
