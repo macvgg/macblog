@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <h3 class="syear" id="year">2024</h3>
     <div class="sidelinks">
     <a href="/macblog/updates/macideas/2024/release.html"><li>June Release</li></a>
+    <a href="/macblog/updates/macideas/2024/july.html"><li>July Update</li></a>
     </div>
   </ul>
 </div>

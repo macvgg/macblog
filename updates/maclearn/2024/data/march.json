@@ -70,14 +70,5 @@
     "menu14": "Others",
     "menu14link": "#otherslist"
   },
-  "year": "2024",
-  "side": {
-    "count": "3",
-    "sa1": "Anniversary Update",
-    "sa1link": "/macblog/updates/maclearn/2024/anniversary.html",
-    "sa2": "March Update",
-    "sa2link": "/macblog/updates/maclearn/2024/march.html",
-    "sa3": "April Update",
-    "sa3link": "/macblog/updates/maclearn/2024/april.html"
-  }
+  "year": "2024"
 }

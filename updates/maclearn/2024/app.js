@@ -72,8 +72,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="side">
   <ul class="sidebar">
     <h2 class="stitle">MacLearn Updates</h2>
-    <h3 class="syear" id="year"></h3>
-    <div id="sidelinks">
+    <h3 class="syear" id="year">2024</h3>
+    <div class="sidelinks">
+    <a href="/macblog/updates/maclearn/2024/anniversary.html"><li>Anniversary Update</li></a>
+    <a href="/macblog/updates/maclearn/2024/march.html"><li>March Update</li></a>
+    <a href="/macblog/updates/maclearn/2024/april.html"><li>April Update</li></a>
+    <a href="/macblog/updates/maclearn/2024/july.html"><li>July Update</li></a>
     </div>
   </ul>
 </div>
@@ -145,16 +149,6 @@ document.addEventListener("DOMContentLoaded", function () {
         link.appendChild(item);
       }
       document.getElementById("year").textContent = data.year;
-      for (let i = 1; i <= parseInt(data.side.count); i++) {
-        let link = document.createElement("a");
-        let item = document.createElement("li");
-        let proName = "sa" + i;
-        item.textContent = data.side[proName];
-        let propName = "sa" + i + "link";
-        link.setAttribute("href", data.side[propName]);
-        document.getElementById("sidelinks").appendChild(link);
-        link.appendChild(item);
-      }
     })
     .catch((error) => console.error("Error fetching data:", error));
 });

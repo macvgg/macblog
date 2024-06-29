@@ -600,3 +600,15 @@ footer {
   padding-block: 25px;
   font-size: 14px;
 }
+
+.manual-content {
+  width: 70%;
+  margin-inline: 15%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.post-subheader {
+  font-size: 25px;
+  padding-block: 10px;
+}
