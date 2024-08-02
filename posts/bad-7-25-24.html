@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      how i gave the games in macvg actual hrefs for links when using js to
+      generte them with the filtering/sorting feature
+    </h1>
+    <p>
+      so with my old js code, when generating the games and arranging them
+      according to the users filters and sorting stuff, the games only have
+      correct tiels and background images, but they dont have the file path for
+      the actual link in the href attribute, because i forgot to set them in the
+      games.json file, where i use it for the game generation. its too much work
+      to do that anyway. so when i tried to fix this bug, i used the id already
+      set in the games to extract the url from the css file via
+      getcomputedstyle, and then modify that url to match it with the actual
+      game page's url, and then paste it only the game element. this way, the
+      game becomes a link thats actually clickable, while the new filtering and
+      sorting features are still working.
+    </p>
+  </body>
+</html>

@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const sidebarmain = document.createElement("div");
   sidebarmain.classList.add("macsidebar");
   sidebarmain.setAttribute("id", "sidebar");
-  
+
   sidebarmain.innerHTML = `<a href="/"><img src="/logo.png" alt="" /></a>
   <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
 <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     <h3 class="syear" id="year">2024</h3>
     <div id="sidelinks">
-    <a href="/macblog/updates/macvg/2024/january.html"><li>January Update</li></a><a href="/macblog/updates/macvg/2024/february.html"><li>February Update</li></a><a href="/macblog/updates/macvg/2024/march.html"><li>March Update</li></a><a href="/macblog/updates/macvg/2024/april.html"><li>April Update</li></a><a href="/macblog/updates/macvg/2024/may.html"><li>May Update</li></a><a href="/macblog/updates/macvg/2024/june.html"><li>June Update</li></a><a href="/macblog/updates/macvg/2024/july.html"><li>July Update</li></a>
+    <a href="/macblog/updates/macvg/2024/january.html"><li>January Update</li></a><a href="/macblog/updates/macvg/2024/february.html"><li>February Update</li></a><a href="/macblog/updates/macvg/2024/march.html"><li>March Update</li></a><a href="/macblog/updates/macvg/2024/april.html"><li>April Update</li></a><a href="/macblog/updates/macvg/2024/may.html"><li>May Update</li></a><a href="/macblog/updates/macvg/2024/june.html"><li>June Update</li></a><a href="/macblog/updates/macvg/2024/july.html"><li>July Update</li></a><a href="/macblog/updates/macvg/2024/august.html"><li>August Update</li></a>
     </div>
   </ul>
 </div>

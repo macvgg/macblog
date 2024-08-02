@@ -17,12 +17,60 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>How We Solved the MacTime Countdown not accurate and leap year month issue | MacBlog</title>
+    <title>
+      Improving MacTime Countdown Accuracy with a Day-Based System | MacBlog
+    </title>
+    <link rel="icon" type="image/x-icon" href="/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
   </head>
   <body>
-    <h1>
-      How We Solved the MacTime Countdown not accurate and leap year month issue
-    </h1>
-    the old mactime countdown, when u do a lot of years and months ahead of current time, it doesnt execute properly and has hours or even days of errors from the actual countdown time, so we decided to use a day-based countdown system instead of month and day-based. month is only an "illusion", where we're actually counting on dates, seeing every month has different number of days, and basing countdown of this isn't accuracte and not logically correct, so we're counting days, and using the rounded average number of days in a month (30), and divide the remaining days by that number, to get the illusional month, so it's easier to comprehend while not causing any errors. It's actually a pretty clever idea, to be honest.
+    <nav class="nav">
+      <a href="/macblog/" class="logo">
+        <img src="/macblog/macblog-logo.png" alt="MacBlog Logo" />
+      </a>
+      <a href="/macblog/posts/" class="nav-link">Posts</a>
+      <a href="/macblog/projects/" class="nav-link">Projects</a>
+      <a href="/macblog/roadmap/" class="nav-link">Roadmap</a>
+      <a href="/macblog/updates/" class="nav-link">Updates</a>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macblog/">About</a>
+          <a href="/macblog/updates/macblog/">Updates</a>
+          <a href="/macblog/projects/macblog/">Docs</a>
+          <a href="https://forms.gle/8ATGPGkr7mqKrJ1e9" target="_blank"
+            >Feedback</a
+          >
+        </ul>
+      </div>
+    </nav>
+    <div class="macsidebar" id="sidebar">
+      <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
+      <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
+      <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
+      <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
+      <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
+    </div>
+    <div class="wrap">
+      <h1 class="post-title">
+        Improving MacTime Countdown Accuracy with a Day-Based System
+      </h1>
+      <span class="post-date">2/22/2024</span>
+      <p class="post-paragraph">
+        The old Mactime countdown had issues with accuracy when setting dates
+        far into the future, sometimes being off by hours or even days. To fix
+        this, we switched to a day-based countdown system instead of using
+        months and days. Months can have different numbers of days, which made
+        the old system inaccurate. Now, we count the total number of days and
+        use an average of 30 days per month to convert it into months. This
+        makes it easier to understand without causing errors. It's a simple but
+        clever solution.
+      </p>
+    </div>
+    <footer>
+      <span>© 2024 MacWeb</span>
+    </footer>
   </body>
 </html>

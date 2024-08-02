@@ -17,12 +17,65 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>How We Solved the 2.0 Update Progress Resetting Issue | MacBlog</title>
+    <title>How We Solved the MacVG 2.0 Progress Lost Issue | MacBlog</title>
+    <link rel="icon" type="image/x-icon" href="/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
   </head>
   <body>
-    <h1>
-      How We Solved the 2.0 Update Progress Resetting Issue
-    </h1>
-    so we recently decided to make all the games with an iframe form of embedding the actual game, so users can have more games on the screen, more control, and more features to do. with the new 2.0 update we introduced a brand new ui for each game page and brand new url's and links to each game. originally we put the game html's with the refresh ui out side of the original parent folder for the games. because we put it in a seperate parent folder, the local storage access is disconnected due to browser cross origin issues, which would result in games progress reset, but we decided to put the refreshed html files INSIDE the games' folders, which doesn't violate cross origin, so the progress will be saved! all thanks to me, we saved your games' progress that you've grinded!!!
+    <nav class="nav">
+      <a href="/macblog/" class="logo">
+        <img src="/macblog/macblog-logo.png" alt="MacBlog Logo" />
+      </a>
+      <a href="/macblog/posts/" class="nav-link">Posts</a>
+      <a href="/macblog/projects/" class="nav-link">Projects</a>
+      <a href="/macblog/roadmap/" class="nav-link">Roadmap</a>
+      <a href="/macblog/updates/" class="nav-link">Updates</a>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macblog/">About</a>
+          <a href="/macblog/updates/macblog/">Updates</a>
+          <a href="/macblog/projects/macblog/">Docs</a>
+          <a href="https://forms.gle/8ATGPGkr7mqKrJ1e9" target="_blank"
+            >Feedback</a
+          >
+        </ul>
+      </div>
+    </nav>
+    <div class="macsidebar" id="sidebar">
+      <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
+      <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
+      <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
+      <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
+      <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
+    </div>
+    <div class="wrap">
+      <h1 class="post-title">
+        How We Solved the MacVG 2.0 Progress Lost Issue
+      </h1>
+      <span class="post-date">12/20/2023</span>
+      <p class="post-paragraph">
+        We recently decided to embed all games using iframes so users can have
+        more games on the screen, more control, and extra features. With the new
+        2.0 update, we introduced a brand-new UI for each game page and updated
+        URLs and links for each game.
+      </p>
+      <p class="post-paragraph">
+        At first, we placed the game HTML files with the new UI outside the
+        original parent folder for the games. This caused local storage access
+        issues due to browser cross-origin problems, resulting in game progress
+        resets. So, we moved the refreshed HTML files inside the games' folders
+        to avoid cross-origin issues and make sure your progress is saved.
+      </p>
+      <p class="post-paragraph">
+        Thanks to this change, your game progress is safe and sound. Enjoy your
+        uninterrupted gaming experience!
+      </p>
+    </div>
+    <footer>
+      <span>© 2024 MacWeb</span>
+    </footer>
   </body>
 </html>
